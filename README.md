@@ -27,13 +27,20 @@ I started this journey to:
 | ... | More coming daily... |
 
 💡 How I Practice
+
 Each folder contains an HTML file with relevant CSS
+
 I use Live Server or CodePen to preview changes
+
 I experiment with variations to deeply understand the behavior
 
 🛠️ Tools Used
+
 HTML5 + CSS3
+
 VS Code + Live Server
+
 Git + GitHub
+
 Browser DevTools
 
