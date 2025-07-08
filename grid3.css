@@ -1,0 +1,30 @@
+.grid_container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 250px;
+    width: 500px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    margin: 0;
+}
+.left{
+    height: 100%;
+    background-color: green;
+    border: 2px solid yellow;
+    border-right: 1px;
+    border-bottom: 1px;
+}
+.top_right{
+    background-color: green;
+    border: 2px solid yellow;
+}
+.bottom_right{
+    background-color: green;
+    box-sizing: border-box;
+    border: 2px solid yellow;
+}
+.empty{
+    background-color: green;
+    border-bottom: 2px solid yellow;
+    border-left: 2px solid yellow;
+}
