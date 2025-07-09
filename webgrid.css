@@ -1,0 +1,49 @@
+/* Container Grid */
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "content sidebar"
+    "footer footer";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 10px;
+  padding: 20px;
+}
+
+/* Section Styling + Placement */
+#header {
+  grid-area: header;
+  background-color: #f26b1d; /* Orange */
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+#content {
+  grid-area: content;
+  background-color: #e11432; /* Red */
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+}
+
+#sidebar {
+  grid-area: sidebar;
+  background-color: #a7e324; /* Light Green */
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+}
+
+#footer {
+  grid-area: footer;
+  background-color: #5b4dc3; /* Blue/Violet */
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+}
