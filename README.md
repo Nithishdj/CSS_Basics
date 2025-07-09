@@ -26,7 +26,7 @@ I started this journey to:
 | Day 8 | Media Queries & Responsive Design |
 | ... | More coming daily... |
 
-💡 How I Practice
+💡 How I Practice,
 
 Each folder contains an HTML file with relevant CSS
 
