@@ -1,0 +1,22 @@
+body{
+    min-height: 200px;
+    border-style: dashed;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.yellow{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+.green{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
