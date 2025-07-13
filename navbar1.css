@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar container */
+.navbar {
+  background-color: #04b72b;
+  padding: 0.5rem 0;
+}
+
+/* Navbar list */
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar items */
+.nav-links li {
+  margin: 0 15px;
+}
+
+/* Navbar links */
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 5px;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  background-color: #fff;
+  color: #333;
+}
