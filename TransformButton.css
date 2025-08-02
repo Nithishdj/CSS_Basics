@@ -1,0 +1,30 @@
+body {
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.transition-btn {
+  background-color: #1e90ff;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+  /* Transition properties */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.transition-btn:hover {
+  background-color: #005cbf;
+  transform: scale(1.1); /* Slight zoom effect */
+}
