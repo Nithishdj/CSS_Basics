@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSS Modal Popup</title>
+  <link rel="stylesheet" href="PopUpLook.css">
+</head>
+<body>
+
+  <h2>Modal Popup using External CSS</h2>
+
+  <!-- Trigger -->
+  <label for="modal-toggle" class="open-btn">Show Modal</label>
+
+  <!-- Hidden Checkbox to Toggle Modal -->
+  <input type="checkbox" id="modal-toggle" hidden>
+
+  <!-- Modal -->
+  <div class="modal">
+    <div class="modal-content">
+      <label for="modal-toggle" class="close-btn">&times;</label>
+      <h3>Hello, I’m a CSS-only Modal!</h3>
+      <p>This modal uses external CSS and no JavaScript.</p>
+    </div>
+  </div>
+
+</body>
+</html>
