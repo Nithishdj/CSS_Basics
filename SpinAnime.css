@@ -1,0 +1,38 @@
+/* Body styling */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f4f8;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Container */
+.loader-container {
+  text-align: center;
+}
+
+/* Spinner */
+.loader {
+  border: 8px solid #e0e0e0;
+  border-top: 8px solid #1bcca9;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 10px;
+}
+
+/* Spin animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Loading text */
+.loader-container p {
+  color: #555;
+  font-size: 18px;
+}
