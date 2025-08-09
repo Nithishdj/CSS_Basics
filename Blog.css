@@ -1,0 +1,103 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  padding-top: 60px; /* Space for toggle */
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #e6f0ff;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  color: #003366;
+}
+
+/* Main Content */
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+article {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-left: 5px solid #003366;
+  background: #f9f9f9;
+  transition: background-color 0.5s ease;
+}
+
+article h2 {
+  margin-bottom: 10px;
+  color: #003366;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #e6f0ff;
+}
+
+/* Toggle Switch */
+.toggle-input {
+  display: none;
+}
+
+.toggle-label {
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  background-color: #ddd;
+  padding: 8px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  user-select: none;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+.toggle-label:hover {
+  background-color: #ccc;
+}
+
+/* Dark Mode Styles */
+.toggle-input:checked ~ header {
+  background-color: #1a1a1a;
+}
+
+.toggle-input:checked ~ main article {
+  background-color: #2a2a2a;
+  border-left-color: #00ccff;
+}
+
+.toggle-input:checked ~ body,
+.toggle-input:checked ~ * {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.toggle-input:checked ~ footer {
+  background-color: #1a1a1a;
+}
+
+.toggle-input:checked ~ .toggle-label {
+  background-color: #444;
+  color: #f0f0f0;
+}
