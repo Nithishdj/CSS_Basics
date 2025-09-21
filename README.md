@@ -1,6 +1,6 @@
 # 🚀 Daily CSS Learning Journey
 
-Welcome to my **Daily CSS Learning Repository**!  
+Welcome to my **Daily CSS Learning Repository**!!  
 This space is dedicated to consistently improving and sharpening my **frontend development skills** by focusing on **CSS** — from the basics to advanced layout techniques.
 
 ## 🎯 Purpose
